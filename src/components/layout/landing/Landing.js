@@ -26,11 +26,16 @@ const Landing = () => {
 						<div className='title-container'>
 							<div className='col-12'>
 								<h1 className='title'>
-									Get in touch with your students, your teachers, and your peers
+									<b>
+										Get in touch with your students, your teachers, and your
+										peers
+									</b>
 								</h1>
 							</div>
 							<div className='col-12'>
-								<h1 className='subtitle'>All in one place.</h1>
+								<h1 className='subtitle'>
+									<b>All in one place.</b>
+								</h1>
 							</div>
 							<div className='col-12'>
 								<GetStartedBtn
@@ -38,7 +43,7 @@ const Landing = () => {
 									className='get-started-btn'
 									size='lg'
 								>
-									Get Started
+									<b>Get Started</b>
 								</GetStartedBtn>
 							</div>
 						</div>
@@ -65,7 +70,9 @@ const Landing = () => {
 					<div className='row justify-content-center testimonials'>
 						<div className='col-12 col-md-5'>
 							<Toast>
-								<ToastHeader>John Smith | Parent</ToastHeader>
+								<ToastHeader>
+									<b>John Smith | Parent</b>
+								</ToastHeader>
 								<ToastBody>
 									"As parents, we also have become home-schoolers. With
 									***NAME*** we can easily keep our kids on track with their
@@ -75,7 +82,9 @@ const Landing = () => {
 						</div>
 						<div className='col-12 col-md-5 mt-2 mt-md-0 mb-2 mb-md-0'>
 							<Toast>
-								<ToastHeader>Sarah Doe | Teacher</ToastHeader>
+								<ToastHeader>
+									<b>Sarah Doe | Teacher</b>
+								</ToastHeader>
 								<ToastBody>
 									"**NAME** has created a bridge between learning and applying,
 									helping students to have a great e-learning experience while

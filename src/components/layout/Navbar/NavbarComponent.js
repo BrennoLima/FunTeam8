@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Brand from "../../../assets/images/Brand.png";
 
 const LoginBtn = styled(Button)`
-	border-radius: 1rem;
+	border-radius: 0.7rem;
 	margin: 0.5rem;
 	width: 7rem;
 `;
@@ -23,7 +23,9 @@ const NavbarComponent = () => {
 			<Navbar collapseOnSelect expand='lg' variant='dark'>
 				<Navbar.Brand href='#home'>
 					<Image src={Brand} alt='Logo' className='logo' />{" "}
-					<h2 className='brand-title'>Brand</h2>
+					<h2 className='brand-title'>
+						<b>Brand</b>
+					</h2>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>
