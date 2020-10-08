@@ -1,0 +1,16 @@
+.navbar {
+	background-color: #264353;
+	min-height: 15vh;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+}
+
+.btn {
+	border-radius: 1rem;
+}
+.brand-title {
+	display: inline;
+}
+.logo {
+	width: 5rem;
+}
