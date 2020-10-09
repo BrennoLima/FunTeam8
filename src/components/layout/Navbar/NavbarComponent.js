@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './navbar.css';
 import { Nav, Navbar, Button, Image } from 'react-bootstrap';
 import styled from 'styled-components';
@@ -20,9 +20,6 @@ const SignUpBtn = styled(LoginBtn)`
 `;
 
 const NavbarComponent = () => {
-	const [isOpen, setIsOpen] = useState(false);
-	const toggle = () => setIsOpen(!isOpen);
-
 	return (
 		<div>
 			<Navbar collapseOnSelect expand='lg' variant='dark'>

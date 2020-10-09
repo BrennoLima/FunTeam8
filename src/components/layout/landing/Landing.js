@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing.css';
-import { Button, ButtonGroup, Image } from 'react-bootstrap';
+import { Button, Image } from 'react-bootstrap';
 import { Toast, ToastBody, ToastHeader } from 'reactstrap';
 import NavbarComponent from '../Navbar/NavbarComponent';
 import LandingPagePicture from '../../../assets/images/landingPagePic.png';
@@ -41,18 +41,18 @@ const Landing = () => {
 
 					<div className='row justify-content-center'>
 						<div className='col-12 col-md-5 mb-3 '>
-							<h2 className='subtitle2'>
+							<h2 className='subtitle2 ml-5 ml-md-0'>
 								<b>Start learning now!</b>
 							</h2>
 						</div>
 					</div>
 					<div className='row justify-content-center mb-3 mb-md-0'>
-						<div className='col-12 col-md-4'>
+						<div className='col-7 mb-2 mb-md-0 col-md-4'>
 							<Btn2 id='teacher' variant='outline-light'>
 								I'm a teacher
 							</Btn2>
 						</div>
-						<div className='col-12 col-md-4'>
+						<div className='col-7 col-md-4'>
 							<Btn2 id='student' variant='outline-light'>
 								I'm a student
 							</Btn2>
