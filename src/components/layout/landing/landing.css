@@ -31,19 +31,20 @@
 	padding-left: 0rem !important;
 	font-size: 3rem;
 	color: white;
-	text-shadow: 0rem 0rem 2rem black;
+	text-shadow: 0rem 0.2rem 0.4rem #3f3f44;
 }
 .subtitle {
 	margin-top: 2rem;
 	padding-left: 0rem !important;
 	font-size: 3rem;
 	color: white;
-	text-shadow: 0rem 0rem 2rem black;
+	text-shadow: 0rem 0.2rem 0.4rem #3f3f44;
 }
 .subtitle2 {
-	color: white;
+	/*color: #b6eb7a;*/
+	color: #d2f6c5;
 	font-size: 2rem;
-	text-shadow: 0rem 0rem 1rem black;
+	text-shadow: 0.2rem 0.2rem #565d47;
 }
 
 .landingpage-pic {
@@ -63,8 +64,7 @@
 		margin-top: 2rem;
 		font-size: 2rem;
 	}
-	.teacherStudentBtns {
-		width: 20rem;
-		margin: 2rem;
+	#teacher {
+		margin-left: 5rem;
 	}
 }
