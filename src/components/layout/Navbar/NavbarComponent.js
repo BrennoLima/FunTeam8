@@ -11,6 +11,7 @@ const LoginBtn = styled(Button)`
 `;
 const SignUpBtn = styled(LoginBtn)`
 	background-color: #f4a261;
+	color: black;
 	border: none;
 `;
 

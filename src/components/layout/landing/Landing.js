@@ -8,6 +8,7 @@ import styled from 'styled-components';
 
 const Btn2 = styled(Button)`
 	background-color: #f4a261;
+	color: black;
 	border: none;
 	width: 12rem;
 	height: 4rem;
