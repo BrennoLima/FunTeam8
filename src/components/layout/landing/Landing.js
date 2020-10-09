@@ -1,21 +1,19 @@
 import React from 'react';
 import './landing.css';
-import { Button, Image } from 'react-bootstrap';
+import { Button, ButtonGroup, Image } from 'react-bootstrap';
 import { Toast, ToastBody, ToastHeader } from 'reactstrap';
 import NavbarComponent from '../Navbar/NavbarComponent';
 import LandingPagePicture from '../../../assets/images/landingPagePic.png';
 import styled from 'styled-components';
 
-const GetStartedBtn = styled(Button)`
+const Btn2 = styled(Button)`
 	background-color: #f4a261;
-	border: none;
+
 	width: 12rem;
 	height: 4rem;
 	border-radius: 1rem;
 `;
-const Btn2 = styled(Button)`
-	border: none;
-`;
+
 const Landing = () => {
 	return (
 		<div className='container-fluid landing-container'>
@@ -28,7 +26,7 @@ const Landing = () => {
 								<h1 className='title'>
 									<b>
 										Get in touch with your students, your teachers, and your
-										peers
+										peers by practicing new knowledge.
 									</b>
 								</h1>
 							</div>
@@ -37,28 +35,24 @@ const Landing = () => {
 									<b>All in one place.</b>
 								</h1>
 							</div>
-							<div className='col-12'>
-								<GetStartedBtn
-									variant='dark'
-									className='get-started-btn'
-									size='lg'
-								>
-									<b>Get Started</b>
-								</GetStartedBtn>
+							<div className='col-12 mt-5'>
+								<h2 className='subtitle2'>
+									<b>Get Started now!</b>
+								</h2>
 							</div>
 						</div>
 					</div>
 
 					<div className='row justify-content-center mb-3 mb-md-0'>
-						<div className='col-5 col-md-4'>
-							<Btn2 id='teacher7' variant='outline-light'>
-								I'm a teacher
-							</Btn2>
-						</div>
-						<div className='col-5 col-md-4'>
-							<Btn2 id='student7' variant='outline-light'>
-								I'm a student
-							</Btn2>
+						<div className='col-6'>
+							<ButtonGroup aria-label='TeacherStudent'>
+								<Btn2 id='teacher' variant='outline-light'>
+									<b>I'm a teacher</b>
+								</Btn2>
+								<Btn2 id='student7' variant='outline-light'>
+									<b>I'm a student</b>
+								</Btn2>
+							</ButtonGroup>
 						</div>
 					</div>
 				</div>
