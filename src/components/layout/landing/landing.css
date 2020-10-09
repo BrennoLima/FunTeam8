@@ -31,7 +31,7 @@
 	padding-left: 0rem !important;
 	font-size: 3rem;
 	color: white;
-	text-shadow: 0rem 0rem 2rem black;
+	text-shadow: 0rem 0rem 1rem black;
 }
 .subtitle {
 	margin-top: 2rem;
@@ -41,9 +41,9 @@
 	text-shadow: 0rem 0rem 2rem black;
 }
 .subtitle2 {
-	color: black;
+	color: white;
 	font-size: 2rem;
-	text-shadow: 0rem 0rem 2rem grey;
+	text-shadow: 0rem 0rem 1rem black;
 }
 
 .landingpage-pic {

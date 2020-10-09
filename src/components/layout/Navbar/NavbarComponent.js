@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import "./navbar.css";
-import { Nav, Navbar, Button, Image } from "react-bootstrap";
-import styled from "styled-components";
-import Brand from "../../../assets/images/Brand.png";
+import React, { useState } from 'react';
+import './navbar.css';
+import { Nav, Navbar, Button, Image } from 'react-bootstrap';
+import styled from 'styled-components';
+import Brand from '../../../assets/images/Brand.png';
 
 const LoginBtn = styled(Button)`
 	border-radius: 0.7rem;
@@ -21,8 +21,8 @@ const NavbarComponent = () => {
 	return (
 		<div>
 			<Navbar collapseOnSelect expand='lg' variant='dark'>
-				<Navbar.Brand href='#home'>
-					<Image src={Brand} alt='Logo' className='logo' />{" "}
+				<Navbar.Brand href='/'>
+					<Image src={Brand} alt='Logo' className='logo' />{' '}
 					<h2 className='brand-title'>
 						<b>Brand</b>
 					</h2>
