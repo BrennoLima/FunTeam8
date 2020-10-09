@@ -45,11 +45,7 @@
 	font-size: 2rem;
 	text-shadow: 0rem 0rem 2rem grey;
 }
-.get-started-btn {
-	margin-top: 4rem;
-	width: 15rem;
-	height: 3rem;
-}
+
 .landingpage-pic {
 	object-fit: cover;
 }
@@ -67,8 +63,8 @@
 		margin-top: 2rem;
 		font-size: 2rem;
 	}
-	.get-started-btn {
-		width: 9rem;
-		height: 3rem;
+	.teacherStudentBtns {
+		width: 20rem;
+		margin: 2rem;
 	}
 }

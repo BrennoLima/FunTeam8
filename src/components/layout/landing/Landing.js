@@ -8,7 +8,6 @@ import styled from 'styled-components';
 
 const Btn2 = styled(Button)`
 	background-color: #f4a261;
-
 	width: 12rem;
 	height: 4rem;
 	border-radius: 1rem;
@@ -35,24 +34,26 @@ const Landing = () => {
 									<b>All in one place.</b>
 								</h1>
 							</div>
-							<div className='col-12 mt-5'>
-								<h2 className='subtitle2'>
-									<b>Get Started now!</b>
-								</h2>
-							</div>
 						</div>
 					</div>
 
+					<div className='row justify-content-center'>
+						<div className='col-12 col-md-5 mb-3 '>
+							<h2 className='subtitle2'>
+								<b>Start learning now!</b>
+							</h2>
+						</div>
+					</div>
 					<div className='row justify-content-center mb-3 mb-md-0'>
-						<div className='col-6'>
-							<ButtonGroup aria-label='TeacherStudent'>
-								<Btn2 id='teacher' variant='outline-light'>
-									<b>I'm a teacher</b>
-								</Btn2>
-								<Btn2 id='student7' variant='outline-light'>
-									<b>I'm a student</b>
-								</Btn2>
-							</ButtonGroup>
+						<div className='col-12 col-md-4'>
+							<Btn2 id='teacher' variant='outline-light'>
+								<b>I'm a teacher</b>
+							</Btn2>
+						</div>
+						<div className='col-12 col-md-4'>
+							<Btn2 id='student' variant='outline-light'>
+								<b>I'm a student</b>
+							</Btn2>
 						</div>
 					</div>
 				</div>
