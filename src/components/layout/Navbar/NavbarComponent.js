@@ -13,6 +13,10 @@ const SignUpBtn = styled(LoginBtn)`
 	background-color: #f4a261;
 	color: black;
 	border: none;
+	&:hover {
+		background-color: white;
+		color: black;
+	}
 `;
 
 const NavbarComponent = () => {
