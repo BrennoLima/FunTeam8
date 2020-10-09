@@ -1,10 +1,10 @@
-import React from "react";
-import "./landing.css";
-import { Button, Image } from "react-bootstrap";
-import { Toast, ToastBody, ToastHeader } from "reactstrap";
-import NavbarComponent from "../Navbar/NavbarComponent";
-import LandingPagePicture from "../../../assets/images/landingPagePic.png";
-import styled from "styled-components";
+import React from 'react';
+import './landing.css';
+import { Button, Image } from 'react-bootstrap';
+import { Toast, ToastBody, ToastHeader } from 'reactstrap';
+import NavbarComponent from '../Navbar/NavbarComponent';
+import LandingPagePicture from '../../../assets/images/landingPagePic.png';
+import styled from 'styled-components';
 
 const GetStartedBtn = styled(Button)`
 	background-color: #f4a261;
@@ -51,10 +51,14 @@ const Landing = () => {
 
 					<div className='row justify-content-center mb-3 mb-md-0'>
 						<div className='col-5 col-md-4'>
-							<Btn2 variant='outline-light'>I'm a teacher</Btn2>
+							<Btn2 id='teacher7' variant='outline-light'>
+								I'm a teacher
+							</Btn2>
 						</div>
 						<div className='col-5 col-md-4'>
-							<Btn2 variant='outline-light'>I'm a student</Btn2>
+							<Btn2 id='student7' variant='outline-light'>
+								I'm a student
+							</Btn2>
 						</div>
 					</div>
 				</div>
