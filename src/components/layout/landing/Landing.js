@@ -49,12 +49,12 @@ const Landing = () => {
 					<div className='row justify-content-center mb-3 mb-md-0'>
 						<div className='col-12 col-md-4'>
 							<Btn2 id='teacher' variant='outline-light'>
-								<b>I'm a teacher</b>
+								I'm a teacher
 							</Btn2>
 						</div>
 						<div className='col-12 col-md-4'>
 							<Btn2 id='student' variant='outline-light'>
-								<b>I'm a student</b>
+								I'm a student
 							</Btn2>
 						</div>
 					</div>
