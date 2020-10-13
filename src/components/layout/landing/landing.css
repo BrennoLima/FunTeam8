@@ -42,9 +42,9 @@
 }
 .subtitle2 {
 	/*color: #b6eb7a;*/
-	color: #d2f6c5;
+	color: #f4a261;
 	font-size: 2rem;
-	text-shadow: 0.2rem 0.2rem #565d47;
+	text-shadow: 0.2rem 0.2rem black;
 }
 
 .landingpage-pic {
