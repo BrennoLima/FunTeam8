@@ -75,9 +75,9 @@ const Landing = () => {
 									<b>John Smith | Parent</b>
 								</ToastHeader>
 								<ToastBody>
-									"As parents, we also have become home-schoolers. With
-									***NAME*** we can easily keep our kids on track with their
-									studies and help their teachers get the job done"
+									"As parents, we also have become home-schoolers. With Spark we
+									can easily keep our kids on track with their studies and help
+									their teachers get the job done"
 								</ToastBody>
 							</Toast>
 						</div>
@@ -87,7 +87,7 @@ const Landing = () => {
 									<b>Sarah Doe | Teacher</b>
 								</ToastHeader>
 								<ToastBody>
-									"**NAME** has created a bridge between learning and applying,
+									"Spark has created a bridge between learning and applying,
 									helping students to have a great e-learning experience while
 									making our job much easier."
 								</ToastBody>

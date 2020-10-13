@@ -26,7 +26,7 @@ const NavbarComponent = () => {
 				<Navbar.Brand href='/'>
 					<Image src={Brand} alt='Logo' className='logo' />{' '}
 					<h2 className='brand-title'>
-						<b>Brand</b>
+						<b>Spark Learning</b>
 					</h2>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
