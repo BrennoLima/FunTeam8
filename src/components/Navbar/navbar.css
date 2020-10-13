@@ -16,6 +16,15 @@
 	width: 5rem;
 }
 
+Link {
+	text-decoration: none;
+	color: black;
+}
+Link:hover {
+	text-decoration: none;
+	color: black;
+}
+
 @media screen and (max-width: 900px) {
 	.brand-title {
 		font-size: 1.5rem;

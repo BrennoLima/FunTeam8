@@ -3,7 +3,7 @@ import './navbar.css';
 import { Nav, Navbar, Button, Image, Modal, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import Brand from '../../../assets/images/Brand.png';
+import Brand from '../../assets/images/Brand.png';
 
 const LoginBtn = styled(Button)`
 	border-radius: 0.7rem;
@@ -22,6 +22,14 @@ const SignUpBtn = styled(LoginBtn)`
 
 const ModalBtn = styled(Button)`
 	border-radius: 0.3rem;
+`;
+const SignUpLink = styled(Link)`
+	text-decoration: none;
+	color: black;
+	&:hover {
+		text-decoration: none;
+		color: black;
+	}
 `;
 
 const NavbarComponent = () => {
@@ -71,7 +79,9 @@ const NavbarComponent = () => {
 					<LoginBtn variant='outline-light' onClick={handleShow}>
 						Login
 					</LoginBtn>
-					<SignUpBtn variant='success'>Sign Up</SignUpBtn>
+					<SignUpBtn variant='success'>
+						<SignUpLink to='/register'>Sign Up</SignUpLink>
+					</SignUpBtn>
 				</Navbar.Collapse>
 			</Navbar>
 		</>
