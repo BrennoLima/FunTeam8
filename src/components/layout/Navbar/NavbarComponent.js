@@ -25,9 +25,9 @@ const NavbarComponent = () => {
 			<Navbar collapseOnSelect expand='lg' variant='dark'>
 				<Navbar.Brand href='/'>
 					<Image src={Brand} alt='Logo' className='logo' />{' '}
-					<h2 className='brand-title'>
+					<h1 className='brand-title'>
 						<b>Spark Learning</b>
-					</h2>
+					</h1>
 				</Navbar.Brand>
 				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
 				<Navbar.Collapse id='responsive-navbar-nav'>

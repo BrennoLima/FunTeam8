@@ -2,7 +2,7 @@
 	background-color: #264353;
 	min-height: 15vh;
 	text-align: center;
-	font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .btn {
@@ -10,7 +10,14 @@
 }
 .brand-title {
 	display: inline;
+	text-shadow: 0rem 0.2rem 0.4rem #3f3f44;
 }
 .logo {
 	width: 5rem;
+}
+
+@media screen and (max-width: 900px) {
+	.brand-title {
+		font-size: 1.5rem;
+	}
 }
