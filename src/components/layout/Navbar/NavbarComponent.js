@@ -20,6 +20,10 @@ const SignUpBtn = styled(LoginBtn)`
 	}
 `;
 
+const ModalBtn = styled(Button)`
+	border-radius: 0.3rem;
+`;
+
 const NavbarComponent = () => {
 	const [show, setShow] = useState(false);
 
@@ -46,12 +50,12 @@ const NavbarComponent = () => {
 					</Form>
 				</Modal.Body>
 				<Modal.Footer>
-					<Button variant='secondary' onClick={handleClose}>
+					<ModalBtn variant='secondary' onClick={handleClose}>
 						Close
-					</Button>
-					<Button variant='primary' onClick={handleClose}>
+					</ModalBtn>
+					<ModalBtn variant='primary' onClick={handleClose}>
 						Login
-					</Button>
+					</ModalBtn>
 				</Modal.Footer>
 			</Modal>
 			<Navbar collapseOnSelect expand='lg' variant='dark'>
