@@ -23,7 +23,7 @@ const SignUpBtn = styled(LoginBtn)`
 const ModalBtn = styled(Button)`
 	border-radius: 0.3rem;
 `;
-const SignUpLink = styled(Link)`
+const StyledLink = styled(Link)`
 	text-decoration: none;
 	color: black;
 	&:hover {
@@ -79,9 +79,9 @@ const NavbarComponent = () => {
 					<LoginBtn variant='outline-light' onClick={handleShow}>
 						Login
 					</LoginBtn>
-					<SignUpBtn variant='success'>
-						<SignUpLink to='/register'>Sign Up</SignUpLink>
-					</SignUpBtn>
+					<StyledLink to='/register'>
+						<SignUpBtn variant='success'>Sign Up</SignUpBtn>
+					</StyledLink>
 				</Navbar.Collapse>
 			</Navbar>
 		</>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './landing.css';
 import { Button, Image } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { Toast, ToastBody, ToastHeader } from 'reactstrap';
 import NavbarComponent from '../Navbar/NavbarComponent';
 import LandingPagePicture from '../../assets/images/landingPagePic.png';
@@ -13,6 +14,14 @@ const Btn2 = styled(Button)`
 	width: 12rem;
 	height: 4rem;
 	border-radius: 1rem;
+`;
+const StyledLink = styled(Link)`
+	text-decoration: none;
+	color: black;
+	&:hover {
+		text-decoration: none;
+		color: black;
+	}
 `;
 
 const Landing = () => {
@@ -48,14 +57,18 @@ const Landing = () => {
 					</div>
 					<div className='row justify-content-center mb-3 mb-md-0'>
 						<div className='col-7 mb-2 mb-md-0 col-md-4'>
-							<Btn2 id='teacher' variant='outline-light'>
-								I'm a teacher
-							</Btn2>
+							<StyledLink to='/aboutteacher'>
+								<Btn2 id='teacher' variant='outline-light'>
+									I'm a teacher
+								</Btn2>
+							</StyledLink>
 						</div>
 						<div className='col-7 col-md-4'>
-							<Btn2 id='student' variant='outline-light'>
-								I'm a student
-							</Btn2>
+							<StyledLink to='/aboutstudent'>
+								<Btn2 id='student' variant='outline-light'>
+									I'm a student
+								</Btn2>
+							</StyledLink>
 						</div>
 					</div>
 				</div>
